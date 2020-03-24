@@ -1,8 +1,8 @@
-# Ruby on Rails Tutorial sample application
+# Mini-Twitter app
 
 ## Reference implementation
 
-This is the reference implementation of the sample application from
+This is the reference implementation of the Mini-Twitter Application from
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
 (6th Edition)
@@ -72,7 +72,7 @@ user-microposts
 following-users
 ```
 
-Starting in Chapter 10 (“Updating users”), the sample app comes configured to seed the database with sample users, which you can activate by resetting the database and then running the seed program:
+Starting in Chapter 10 (“Updating users”), the Mini-Twitter App comes configured to seed the database with sample users, which you can activate by resetting the database and then running the seed program:
 
 ```
 $ rails db:migrate:reset
