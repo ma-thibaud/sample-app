@@ -26,7 +26,7 @@ $ bundle install
 Next, reset/migrate the database and run the seed program:
 
 ```
-$ rails db:migrate:reset db:seed
+$ rails db:migrate db:seed
 ```
 
 Finally, run the test suite to verify that everything is working correctly:

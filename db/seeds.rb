@@ -8,8 +8,8 @@ User.create!(name: "Example User",
             activated: true,
             activated_at: Time.zone.now)
 
-puts "Generating 99 additional users."
-99.times do |n|
+puts "Generating 50 additional users."
+50.times do |n|
   puts "Generate user ##{n+1}."
   name = Faker::Name.name
   email = "example-#{n+1}@mini-twitter.org"
