@@ -23,7 +23,7 @@ Then install the needed gems:
 $ bundle install
 ```
 
-Next, reset/migrate the database and run the seed program:
+Next, migrate the database and run the seed program:
 
 ```
 $ rails db:migrate db:seed
