@@ -23,10 +23,10 @@ Then install the needed gems:
 $ bundle install
 ```
 
-Next, migrate the database and run the seed program:
+Next, reset/migrate the database and run the seed program:
 
 ```
-$ rails db:migrate db:seed
+$ rails db:migrate:reset db:seed
 ```
 
 Finally, run the test suite to verify that everything is working correctly:
@@ -40,3 +40,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+You can login with the following user created in the seed:
+- email: example@mini-twitter.org
+- password: foobar

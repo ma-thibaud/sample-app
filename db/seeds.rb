@@ -1,7 +1,7 @@
 # Users
 puts "Creating a main sample user."
 User.create!(name: "Example User",
-            email: "example@railstutorial.org",
+            email: "example@mini-twitter.org",
             password: "foobar",
             password_confirmation: "foobar",
             admin: true,
@@ -12,7 +12,7 @@ puts "Generating 99 additional users."
 99.times do |n|
   puts "Generate user ##{n+1}."
   name = Faker::Name.name
-  email = "example-#{n+1}@railstutorial.org"
+  email = "example-#{n+1}@mini-twitter.org"
   password = "password"
   User.create!(name: name,
               email: email,
