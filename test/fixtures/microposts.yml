@@ -4,7 +4,7 @@ orange:
   user: michael
 
 tau_manifesto:
-  content: "Check out the @tauday site by @mhartl: https://tauday.com"
+  content: "Check out the @tauday site by @thibaud: https://tauday.com"
   created_at: <%= 3.years.ago %>
   user: michael
 
