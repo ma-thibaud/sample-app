@@ -8,7 +8,7 @@ To get started with the app, first clone the repo and `cd` into the directory:
 
 ```
 $ git clone https://github.com/ma-thibaud/sample-app.git
-$ cd sample_app
+$ cd sample-app
 ```
 
 Install the dependencies:
